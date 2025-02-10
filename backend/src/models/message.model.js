@@ -6,6 +6,6 @@ const messageSchema = new mongoose.Schema({
     content: { type: String, required: true },
     }, 
     { timestamps: true }
-); // createdAt, updatedAt
+);
 
 export const Message = mongoose.model("Message", messageSchema);
